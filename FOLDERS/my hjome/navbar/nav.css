@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.main-header{
+    background-color: #f5f5f5;
+    padding: 17px;
+    text-align: center;
+    /* position: fixed; */
+}
+
+
+nav{
+    background-color: #0e5546;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* make sure it untop of other elements */
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aligns items horizontally */
+    justify-content: space-around; /* distribute the content */
+    width:100%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 13px;
+    /* width: 10%; */
+    /* margin: 50px; */
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    color: rgb(219,171,14);
+    font-size: 20px;
+/* border: 2px solid #fffffff; */
+/* border-radius: 15px; */
+    text-decoration: underline;
+    padding: 10px;
+}
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #e0a707;
+}
+.hero img{
+    height: auto;
+    width: 100%;
+}
+
+.hero::before {
+    content:'' ;
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%;
+    background-color: RGB(0,0,139,0.5); /* dark blue with 50% opacity */
+    z-index: 1;
+    
+    
+}
+
+.text{
+    /* background-color: navy; */
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.text span{
+    color: white;
+
+}
+.hero span{
+    color: white;
+}
+button{
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    border: none;
+    background-color: #e0a707;
+    border-radius: 20px;
+    color: black;
+
+    margin: auto;
+}
+
+.plans{
+    text-align: center;
+    background: color #f0f0f0; ;
+    padding: 30px;
+    /* margin: 37px; 0*/
+    border-radius: 15px;
+}
+.plans h3 {
+    color:#0e5545;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.plans p{
+font-size: 18px;
+color: #333;
+margin: 0 auto ;
+line-height: 1.6;
+max-height: 700px;
+}
+
+
+.features{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+
+.features h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0e5545;
+}
+.service{
+    display:inline-block;
+    margin: 10px;
+    width: 250px;
+     border-radius: 1px;
+    /* background-color: wheat; */
+    box-shadow:gold ;
+}
+.service img{
+    width: 100%;
+    border-radius: 10px;
+}
+.service p{
+    color:#333;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+.service img:hover{
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+
+.join{
+    text-align: center;
+    background-color: #0e5546;
+    color: #ffff;
+    padding: 45px;
+}
+.join h3{
+font-size: 30px;
+margin-bottom: 10px;
+}
+.joinp{
+    font-size: 18px;
+    margin-bottom: 1opx;
+}
+.join button{
+    background-color: #e0a707;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #8a6706;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 15px;
+    color: #777;
+}
+
+@media (max-width:1024) {
+    body
+}
+
+@media (max-width:650px){
+    .main-header{
+        background-color: #f5f5f5;
+        padding: 10px;
+        text-align:center;
+    }
+    nav{
+        background-color: #0e5545;
+        width: 100;
+        padding: 15px;
+        /* position: fixed; */ 
+        top: 0;
+        z-index: 1000; /* make sure it untop of other elements */
+    }
+    .text{
+        /* background-color: navy; */
+        position: absolute;
+        left: 24%;
+        top: 40%;
+        align-items: 25px;
+        font-size: 25px;
+        font-weight: 600;
+        z-index: 1;
+    }
+    
+     .text button{
+        
+     }
+
+     .plans h3{
+        color:#0e5545;
+        font-size: 5px;
+        margin-bottom: 20px;
+     }
+     .features h3{
+        font-size: 5px;
+        margin-bottom: 20px;
+        color: #0e5545;
+     }
+
+     nav {
+        
+     }
+        
+    }
+
+
+
+
+
+
+
+

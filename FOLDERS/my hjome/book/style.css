@@ -1,0 +1,26 @@
+body{
+background-color:#d3d2d2;
+} 
+ h2{
+    color:crimson;
+ }
+ p{
+    color: chocolate;
+    border: 2px solid crimson;
+ }
+ 
+   div p{color: blue;}
+   .main-header{
+      color: white;
+      background-color:black;
+      text-align: center;
+      padding: 15px;
+   }
+ 
+#paragraph{
+   color: blue;
+
+border:2px solid crimson;
+padding: 10px;
+margin: 50px; ;
+} 
